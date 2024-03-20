@@ -1,4 +1,4 @@
-# Sentiment Analysis Final Capstone Project
+# 📱Sentiment Analysis Final Capstone Project📱
 
 ## Description
 This is a final capstone project where I have written a script to analyse the sentiment polarity of Amazon product reviews. The script contains functions to clean/preprocess the data,  measure the sentiment polarity and usage of the functions to analyse a sample of the dataset. It also calculates the semantic similarity of two reviews from the dataset. This repo also contains a short report of my findings called "sentiment_analysis_report.pdf". 
