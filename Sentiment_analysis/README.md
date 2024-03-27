@@ -5,7 +5,8 @@ This is a final capstone project where I have written a script to analyse the se
 
 ## Installation and usage
 1. Download "sentiment_analysis.py" and "amazon_product_reviews.rar" into your local directory and unzip the .rar file to obtain the "amazon_product_reviews.csv" dataset.
-2. Open the .py file and change the file path on **line 17** to your local directory with the "amazon_product_reviews.csv" file.
+2. Open the .py file and change the relative_path variable on **line 18** to your local folder with the "amazon_product_reviews.csv" file. 
+(eg. relative_path = "my_folder/amazon_product_reviews.csv")
 3. Run the file to generate the sentiment polarity of a random sample of 100 reviews and the semantic similarity value of review #2085 and review #1087.
    - **OPTIONAL** You can modify the n value on **line 74** to generate a random sample number of your choosing (up to n = 34660)
    - **OPTIONAL** You can modify the df[] values on **line 96** and **line 97** to any values (between 0-34659) to compare the similarity of two reviews of your choosing.
